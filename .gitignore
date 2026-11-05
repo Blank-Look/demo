@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies (none today; future-proofing)
+node_modules/
+
+# Logs
+*.log
+
+# Local env / secrets
+.env
+.env.*
+!.env.example

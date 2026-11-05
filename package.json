@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small interactive 9x9 Go web app for students.",
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
