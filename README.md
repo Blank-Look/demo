@@ -23,7 +23,7 @@ Then open <http://localhost:8080>.
 
 ## Run Remote
 
-<https://blank-look.github.com/demo>
+the GitHub Pages address shown in the repository's Pages settings
 
 ## Test
 
@@ -52,7 +52,7 @@ Requires Node.js 20+.
 
 ## Why static?
 
-This is a student learning aid, not a multi-user service. A static site is the simplest reversible option and matches the existing portal hosting model. See [ADR-0001](docs/adr/0001-static-client-side-app.md).
+This is a student learning aid, not a multi-user service. A static site is the simplest reversible option and is the simplest hosting model. See [ADR-0001](docs/adr/0001-static-client-side-app.md).
 
 ## Licence and data
 

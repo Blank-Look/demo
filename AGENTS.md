@@ -16,7 +16,7 @@ MVP implemented in `index.html`, `css/`, and `js/`. Unit tests in `tests/` cover
 - Game rules, bot, and persistence all run in the browser.
 - Persistence via `localStorage` (single saved game per browser).
 - No network calls, no analytics, no third-party scripts.
-- Hosted on GitHub Pages under the existing Blank-Look account.
+- Hosted on GitHub Pages.
 
 Full detail: `docs/architecture.md`.
 
@@ -98,7 +98,7 @@ node --test tests/
 
 ## UI Conventions
 
-- Follow the portal's visual language where practical (Inter font, restrained palette, `--brick` accent `#7A1B2C` as the primary accent).
+- Keep a restrained palette with a single accent colour (`--accent`).
 - Board must be usable on desktop and tablet, and responsive on mobile.
 - Intersections are keyboard-focusable; arrows move focus, Enter/Space place a stone.
 - Announce turn changes, captures, passes, and game end to assistive technology via `aria-live`.

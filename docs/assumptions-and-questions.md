@@ -45,7 +45,7 @@ Only questions that would materially change a secure or correct design. None blo
 | Q-2 | Should the bot have selectable difficulty (easy/medium)? | Single approachable level. | No |
 | Q-3 | Is a hint/liberties overlay desirable for teaching? | Include if cheap in Phase 3; otherwise defer. | No |
 | Q-4 | Should the app support 13×13 or 19×19 later? | No; design keeps `size` as a parameter where free. | No |
-| Q-5 | Does "students" imply a specific institution/branding to match? | Use the portal's restraint; no institutional claims. | No |
+| Q-5 | Does "students" imply specific branding to match? | Use a restrained style; no organisational claims. | No |
 | Q-6 | Is offline install (PWA) wanted? | No service worker in MVP. | No |
 
 If any answer contradicts an assumption, update this file, `product-requirements.md`, and the relevant ADR before implementation.
