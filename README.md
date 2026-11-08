@@ -21,6 +21,10 @@ python3 -m http.server 8080
 
 Then open <http://localhost:8080>.
 
+## Run Remote
+
+<https://blank-look.github.com/demo>
+
 ## Test
 
 Rules, bot, and scoring are pure modules tested with Node's built-in runner:
